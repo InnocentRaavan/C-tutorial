@@ -7,10 +7,10 @@ void main()
     int temp;
     printf("Before reverse\n x=%d\n y=%d\n z=%d\n",x,y,z);
     
-    x = temp;
-    y = z;
-    z = temp;
-    
+   temp = x;
+   x = y;
+   y = z;
+   z = temp;    
     printf("After reverse\n x=%d\n y=%d\n z=%d\n",x,y,z);
 
 }
