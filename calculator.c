@@ -21,6 +21,7 @@ int main() {
         printf("6. Reciprocal (1/n) for n=4\n");
         printf("7. Percentage (%%)\n");
         printf("8. Negate (change sign)\n");
+        printf("9. Remainder (%)\n");
         printf("0. Exit\n");
         printf("Enter your choice: ");
         scanf(" %c", &operation);
@@ -94,6 +95,16 @@ int main() {
                 scanf("%lf", &num1);
                 result = -num1;
                 printf("Result (negated): %.2lf\n", result);
+                break;
+            case '9': // Remainder
+                printf("Enter two integers: ");
+                scanf("%lf %lf", &num1, &num2);
+                if ((int)num2 != 0) {
+                    result = (int)num1 % (int)num2;
+                    printf("Result (remainder): %.2lf\n", result);
+                } else {
+                    printf("Error: Division by zero!\n");
+                }
                 break;
             default:
                 printf("Invalid operation. Please try again.\n");

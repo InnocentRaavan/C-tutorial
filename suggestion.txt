@@ -1,0 +1,35 @@
+Module 3
+
+1. Program to check even or odd. 
+2. Program to find largest of three numbers using nested if. 
+3. Write a C program to find the roots of a quadratic equation using if–else. 
+4. Program to find factorial using recursion. 
+5. Program to generate Fibonacci series using loop. 
+6. Program to check prime number. 
+7. Write a C program to check whether a given number is a palindrome. 
+8. Program to calculate sum of digits of a number. 
+9. Program using switch-case for calculator. 
+10. Program using macro for square of a number.
+
+Module 4
+
+11. Write a C program to find the sum and average of array elements. 
+12. Write a C program to find the largest and smallest element in an array. 
+13. Write a C program for matrix addition using 2D arrays. 
+14. Write a C program for matrix multiplication. 
+15. Write a C program to find the transpose of a matrix  
+16. Write a C program to sort numbers using bubble sort. 
+17. Write a C program to search an element using binary search. 
+18. Write a C program to swap two numbers using pointers. 
+19. Write a C program to find length of a string without using library functions. 
+20. Write a C program to copy one string to another. 
+21. Write a C program to compare two strings. 
+22. Write a C program to reverse a string. 
+23. Write a C program to count vowels and consonants in a string. 
+
+Module 5
+
+24. Write a C program to store and display student details using structure. 
+25. Program to write data into a file using fprintf(). 
+26. Program to read data from a file using fscanf(). 
+27. Program using command line arguments to add two numbers.
